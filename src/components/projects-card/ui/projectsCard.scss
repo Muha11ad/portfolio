@@ -1,0 +1,52 @@
+.project-card {
+	height: 220px;
+	width: 400px;
+	display: flex;
+	padding: 15px;
+	border-radius: 10px;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	&__image {
+		width: 100px;
+	}
+	&__title {
+		color: var(--light-blue);
+		font-size: 18px;
+		font-weight: 700;
+	}
+	&__links {
+		display: flex;
+		gap: 10px;
+	}
+	&__link {
+		color: var(--bisque);
+		font-weight: 700;
+	}
+	&__tech {
+		color: var(--black);
+		font-weight: 700;
+	}
+	&__techs {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+	}
+}
+
+.light-blue {
+	color: rgb(30, 150, 255);
+}
+.pink {
+	color: #cc6598;
+}
+.blue {
+	color: #087a9f;
+}
+.black {
+	color: var(--black);
+}
+
+.green {
+	color: #55ad47;
+}

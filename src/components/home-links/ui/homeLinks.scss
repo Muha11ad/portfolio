@@ -1,0 +1,16 @@
+.home-links {
+	gap: 10px;
+	display: flex;
+    flex-wrap: wrap;
+	align-items: center;
+    justify-content: center;
+}
+
+.home-link {
+    gap: 5px;
+    display: flex;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--bisque);
+    
+}

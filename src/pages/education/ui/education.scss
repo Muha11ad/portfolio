@@ -1,0 +1,55 @@
+.education-content {
+	gap: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.education-title {
+	width: 40%;
+	font-size: 40px;
+	margin-top: 50px;
+	position: relative;
+	color: var(--light-blue);
+}
+
+.education-title::after {
+	content: "";
+	top: 55px;
+	bottom: 0;
+	left: 0;
+	width: 70%;
+	height: 3px;
+	position: absolute;
+	border-radius: 20px;
+	background-color: var(--light-blue);
+}
+
+.education-bottom {
+	gap: 5px;
+	display: flex;
+	font-weight: 500;
+	font-size: 20px;
+	margin-top: 150px;
+	align-items: center;
+	justify-content: center;
+}
+.education-link {
+	color: var(--bisque);
+}
+@media (max-width: 800px) {
+	.education-title {
+		width: 70%;
+		font-size: 25px;
+		margin-top: 20px;
+	}
+	.education-title::after {
+		top: 30px;
+	}
+
+	.education-bottom {
+		gap: 3px;
+		margin-top: 50px;
+	}
+}

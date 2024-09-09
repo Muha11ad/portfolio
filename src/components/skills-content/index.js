@@ -1,0 +1,1 @@
+export { SkillsContent } from "./ui/skillsContent"

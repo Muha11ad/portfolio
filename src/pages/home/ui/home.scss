@@ -1,0 +1,21 @@
+.home-intro{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+.home-images{
+    width:400px
+}
+
+@media (max-width: 800px) {
+	.home-intro{
+        margin-top: 10px;
+    }
+    .home-images{
+        margin-top: 30px;
+        width:250px
+    }
+    
+}

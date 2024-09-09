@@ -1,0 +1,15 @@
+.projects {
+	&-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 50px;
+		align-items: center;
+		justify-content: space-around;
+	}
+	&-title{
+		margin-top: 50px;
+		text-align: center;
+		font-size: 30px;
+		color: var(--light-blue);
+	}
+}

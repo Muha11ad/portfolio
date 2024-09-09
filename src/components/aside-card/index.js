@@ -1,0 +1,1 @@
+export { AsideCard } from "./ui/asideCard"

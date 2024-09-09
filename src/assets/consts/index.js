@@ -1,0 +1,5 @@
+export { ASIDE_CONTENT } from "./aside-content"
+export { SKILLS_EXPORT } from "./skills-content"
+export { PROJECTS_CONTENT } from "./projects-content"
+export { FORMAL_EDUCATION_CONTENT } from "./education-content"
+export { PRIVATE_EDUCATION_CONTENT } from "./education-content"

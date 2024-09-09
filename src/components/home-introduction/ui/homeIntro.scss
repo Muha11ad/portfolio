@@ -1,0 +1,33 @@
+.intro {
+	&-wrapper {
+		max-width: 600px;
+	}
+	&-title {
+		margin: 0;
+		font-size: 35px;
+		letter-spacing: 1px;
+		line-height: 50px;
+		color: var(--light-blue);
+	}
+	&-bisque {
+		color: var(--bisque);
+		font-weight: 700;
+	}
+	&-subtitle {
+		font-size: 21px;
+
+		color: var(--black);
+	}
+}
+
+@media (max-width: 800px) {
+	.intro {
+		&-title {
+			font-size: 30px;
+			line-height: 40px;
+		}
+		&-subtitle {
+			font-size: 18px;
+		}
+	}
+}

@@ -1,0 +1,1 @@
+export { HomeIntroTitle} from "./ui/homeIntro"

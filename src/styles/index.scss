@@ -1,0 +1,40 @@
+@import "variables";
+
+body {
+	margin: 0;
+	padding: 0;
+	background: var(--snow);
+	font-family: "SUSE", sans-serif;
+
+}
+
+.container {
+	max-width: 1290px;
+	margin: 0 auto;
+}
+
+.App {
+	display: flex;
+}
+
+.btn-open,
+.btn-close {
+	border: none;
+	padding: 5px 10px;
+	color: var(--snow);
+	border-radius: 10px;
+	background-color: var(--bisque);
+	display: none;
+}
+
+@media (max-width: 800px) {
+	.btn-open,
+	.btn-close {
+		margin-top: 40px;
+		display: block;
+	}
+	.container {
+		width: 80%;
+		padding: 0;
+	}
+}

@@ -1,0 +1,16 @@
+.education-card {
+	padding: 20px;
+	display: flex;
+	width: 300px;
+	list-style: none;
+	border-radius: 10px;
+    gap: 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.education__line {
+	width: 5px;
+	height: 90px;
+    border-radius: 10px;
+	background-color: var(--light-blue);
+}

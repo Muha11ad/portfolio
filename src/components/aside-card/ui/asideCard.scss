@@ -1,0 +1,50 @@
+.aside-card {
+	gap: 10px;
+	border: none;
+	display: flex;
+	background: none;
+	cursor: pointer;
+	padding-bottom: 8px;
+	position: relative;
+  
+	&__title {
+	  font-size: 20px;
+	  color: var(--snow);
+	}
+  
+	&::after {
+	  content: "";
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	  width: 0; // Initial width is 0
+	  height: 2px;
+	  background-color: var(--light-blue);
+	  transition: width 0.3s ease;
+	}
+  
+	&:hover::after {
+	  width: 100%; // Full width on hover
+	}
+  }
+  
+  .bx {
+	color: var(--light-blue);
+	font-size: 20px;
+  }
+  
+  .active-aside-card {
+	.aside-card__title {
+	  color: var(--light-blue); 
+	}
+  
+	.bx {
+	  color: var(--snow); 
+	}
+  
+	&::after {
+	  width: 100%; 
+	  background-color: var(--light-blue);
+	}
+  }
+  
