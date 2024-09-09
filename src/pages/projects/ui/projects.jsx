@@ -14,10 +14,10 @@ export const Projects = () => {
 			/>
 		)
 	);
-	return <div >
-		<h2 className="projects-title">Quality over Quantity</h2>
-		<div className="projects-wrapper">
-
-		{content}</div>
+	return (
+		<div>
+			<h2 className="projects-title">Quality over Quantity</h2>
+			<div className="projects-wrapper">{content}</div>
 		</div>
+	);
 };
