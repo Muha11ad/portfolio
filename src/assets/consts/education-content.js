@@ -12,8 +12,8 @@ export const FORMAL_EDUCATION_CONTENT = [
 		degree: "Economics",
 	},
 	{
-		name: "University of Germany ~ soon",
-		period: "2025-2027",
+		name: "IT Park University",
+		period: "2024-2025",
 		type: "Hyberyd format",
 		degree: "IT",
 	},

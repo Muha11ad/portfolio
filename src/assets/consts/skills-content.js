@@ -56,6 +56,11 @@ export const SKILLS_EXPORT = [
 					"https://images.saasworthy.com/socketio_30421_logo_1619604506_tdxqo.png",
 			},
 			{
+				title: "Redis",
+				image:
+					"https://www.svgrepo.com/show/303460/redis-logo.svg",
+			},
+			{
 				title: "GrammY (telegram bot)",
 				image:
 					"https://raw.githubusercontent.com/grammyjs/website/main/logos/grammY.png",

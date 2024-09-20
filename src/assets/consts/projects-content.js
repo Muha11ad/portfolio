@@ -40,8 +40,8 @@ export const PROJECTS_CONTENT = [
 		],
 	},
 	{
-		name: "Profi Print telegram bot",
-		image: "https://images.indianexpress.com/2022/11/Telegram-bots-2-1.jpg",
+		name: "Coming soon",
+		image: "https://englishlib.org/dictionary/wlibrary/s/6047abc3cb5125.18260938.jpg",
 		links: [
 			{
 				linkFor: "GitHub (private)",
@@ -60,6 +60,10 @@ export const PROJECTS_CONTENT = [
 
 			{
 				techName: "GrammY",
+				nameClass: "blue",
+			},
+			{
+				techName: "React",
 				nameClass: "blue",
 			},
 			{
